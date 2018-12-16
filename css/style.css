@@ -1,0 +1,44 @@
+body{
+  background-color: #c9c9d4;
+}
+
+#mainBorder{
+  width: 350px;
+  height: 450px;
+  border: 5px solid #82a4b4;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#result{
+  width: auto;
+  height: 100px;
+  border-bottom: 5px solid #82a4b4;
+}
+
+#numAndOperator{
+  width: auto;
+  height: 340px;
+  background-color: #b0bac3;
+  padding-top: 5px;
+}
+
+.buttonList{
+  width: auto;
+  height: 40px;
+  margin-top: 3px;
+  padding: 2px;
+  text-align: center;
+}
+
+.buttonType{
+  width: 80px;
+  height: 40px;
+}
+
+#resultView{
+  width: 343px;
+  height: 93px;
+  border: 3px solid #82a4b4;
+}

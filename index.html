@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <title> </title>
+  <meta charset="utf-8"/>
+
+  <link rel="stylesheet" type="text/css" href="../calculator/css/style.css">
+  <script type="text/javascript" src="../calculator/js/script.js"></script>
+</head>
+<body>
+  <section id="mainBorder">
+
+    <section id="result">
+      <textarea id="resultView" readonly></textarea>
+    </section>
+
+    <section id="numAndOperator">
+
+      <article class="buttonList">
+        <input type="button" name="" value="C" class="buttonType" onclick="clearAllValue()"/>
+        <input type="button" name="" value="+/-" class="buttonType" onclick="positiveOrNegative()"/>
+        <input type="button" name="" value="%" class="buttonType" onclick="valueAdd('%')"/>
+        <input type="button" name="" value="←" class="buttonType" onclick="deleteValue()"/>
+      </article>
+
+      <article class="buttonList">
+        <input type="button" name="" value="x^y" class="buttonType" onclick="valueAdd('^')"/>
+        <input type="button" name="" value="√" class="buttonType" onclick="squareRootOfNumber()"/>
+        <input type="button" name="" value="x^2" class="buttonType" onclick="numPow()"/>
+        <input type="button" name="" value="|x|" class="buttonType" onclick="absoluteNum()"/>
+      </article>
+
+      <article class="buttonList">
+        <input type="button" name="" value="(" class="buttonType" onclick="valueAdd('(')"/>
+        <input type="button" name="" value=")" class="buttonType" onclick="valueAdd(')')"/>
+        <input type="button" name="" value="π" class="buttonType" onclick="valueAdd(3.1415)"/>
+        <input type="button" name="" value="x!" class="buttonType" onclick="calculateFactorial()"/>
+      </article>
+
+      <article class="buttonList">
+        <input type="button" name="" value="7" class="buttonType" onclick="valueAdd('7')"/>
+        <input type="button" name="" value="8" class="buttonType" onclick="valueAdd('8')"/>
+        <input type="button" name="" value="9" class="buttonType" onclick="valueAdd('9')"/>
+        <input type="button" name="" value="÷" class="buttonType" onclick="valueAdd('/')"/>
+      </article>
+
+      <article class="buttonList">
+        <input type="button" name="" value="6" class="buttonType" onclick="valueAdd('6')"/>
+        <input type="button" name="" value="5" class="buttonType" onclick="valueAdd('5')"/>
+        <input type="button" name="" value="4" class="buttonType" onclick="valueAdd('4')"/>
+        <input type="button" name="" value="x" class="buttonType" onclick="valueAdd('*')"/>
+      </article>
+
+      <article class="buttonList">
+        <input type="button" name="" value="3" class="buttonType" onclick="valueAdd(3)"/>
+        <input type="button" name="" value="2" class="buttonType" onclick="valueAdd(2)"/>
+        <input type="button" name="" value="1" class="buttonType" onclick="valueAdd(1)"/>
+        <input type="button" name="" value="-" class="buttonType" onclick="valueAdd('-')"/>
+      </article>
+
+      <article class="buttonList">
+        <input type="button" name="" value="0" class="buttonType" onclick="valueAdd(0)"/>
+        <input type="button" name="" value="." class="buttonType" onclick="valueAdd('.')"/>
+        <input type="button" name="" value="=" class="buttonType" onclick="calculate('=')"/>
+        <input type="button" name="" value="+" class="buttonType" onclick="valueAdd('+')"/>
+      </article>
+
+    </section>
+
+  </section>
+
+</body>
+</html>
